@@ -1,0 +1,45 @@
+label{
+    position: relative;
+    height: 50px;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    padding: 0;
+    margin: 10px auto;
+    border-radius: 100%;
+    border: 1px var(--primary) solid;
+    transition: .5s ease-in-out;
+}
+
+label:hover{
+    background: var(--primary);
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+label:hover span{
+    color: #fff;
+}
+
+label > span{
+    padding: 0;
+    color: var(--primary);
+    font-size: 1.5rem;
+}
+
+label > input{
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: auto;
+    opacity: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+    cursor: pointer;
+}
+
+.output{
+    color: #fff;
+}

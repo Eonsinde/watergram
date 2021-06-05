@@ -1,0 +1,29 @@
+.title{
+    text-align: center;
+    /* color: var(--secondary); */
+    color: #fff;
+}
+
+
+.title > h1{
+    font-size: 2.5rem;
+    margin: 1rem 0;
+    text-transform: uppercase;
+}
+
+.title > h1 > a{
+    text-decoration: none;
+    letter-spacing: 8px;
+    color: var(--primary);
+}
+
+.title > h2{
+    margin: .3rem 0;
+    letter-spacing: 2px;
+    font-size: 1.3rem;
+    text-transform: uppercase;
+}
+
+.title > p{
+    text-transform: uppercase;
+}
